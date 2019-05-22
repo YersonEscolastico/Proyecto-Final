@@ -8,7 +8,7 @@ using Registro.DAL;
 
 //Aqui agregamos public tambien, para que la clase pueda pueda ser encontrada en cualquier parte del proyecto,
 //Y heredamos de BbContext para que EntityFrameWork pueda hacer su magia
-namespace Registro.DAL
+namespace Registro.DAL.Scripts
 {
    public class Contexto : DbContext
     {
