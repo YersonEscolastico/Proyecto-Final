@@ -26,8 +26,7 @@ namespace Registro.BLL
                 {
                     if (db.usuarios.Add(usuarios) != null)
                     {
-                        db.SaveChanges();
-                        paso = true;
+                        paso = db.SaveChanges() > 0;
                     }
 
                     db.Dispose();
