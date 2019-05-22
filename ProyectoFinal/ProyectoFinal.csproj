@@ -97,6 +97,7 @@
     <Folder Include="UI\Reportes\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DAL\Script\UsuariosDb.sql" />
     <Content Include="Resources\3floppy3_unmount.png" />
     <Content Include="Resources\b.png" />
     <Content Include="Resources\Bin %28empty%29.png" />
