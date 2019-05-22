@@ -4,10 +4,11 @@ using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Registro.DAL;
 
 //Aqui agregamos public tambien, para que la clase pueda pueda ser encontrada en cualquier parte del proyecto,
 //Y heredamos de BbContext para que EntityFrameWork pueda hacer su magia
-namespace Registro.DAL.Scripts
+namespace Registro.DAL
 {
    public class Contexto : DbContext
     {
