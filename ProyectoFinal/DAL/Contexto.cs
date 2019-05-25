@@ -15,7 +15,7 @@ namespace Registro.DAL
    public class Contexto : DbContext
     {
         public DbSet<Usuario> usuarios { get; set; }
-        public DbSet<Cargo> cargos { get; set; }
+        public DbSet<Cargos> cargos { get; set; }
 
 
         //base("ConStr") para pasar la conexion a la clase de EntityFrameWork

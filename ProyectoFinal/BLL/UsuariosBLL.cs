@@ -5,7 +5,6 @@ using System.Linq;
 using System.Linq.Expressions;
 using Registro.Entidades;
 using System.Data.Entity;
-using Registro.DAL.Scripts;
 
 namespace Registro.BLL
 {

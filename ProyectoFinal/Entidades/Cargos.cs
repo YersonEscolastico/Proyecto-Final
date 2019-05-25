@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace ProyectoFinal.Entidades
 {
-    public class Cargo
+    public class Cargos
     {
         [Key]
         public int CargoId { get; set; }
         public string Descripcion { get; set; }
 
-        public Cargo()
+        public Cargos()
         {
             CargoId = 0;
             Descripcion= string.Empty;
