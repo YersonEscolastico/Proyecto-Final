@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoFinal.Entidades
 {
-    class Cargo
+    public class Cargo
     {
         [Key]
         public int CargoId { get; set; }
